@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/images/icon-alura.ico">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Challenge One T6 - Decodificador de Texto.</title>
+</head>
+<body>
+    <div class="logo-alura">
+        <img src="./assets/images/logo-alura.png" alt="logo da Alura">
+    </div>
+    <main class="conteudo-principal">
+        <section class="conteudo-principal-section">
+            <h2>Chalenger Alura - Decodificador de Texto</h2>
+            <div class="conteudo-principal-text">
+                <textarea class="texto" placeholder="Digite seu texto..." spellcheck="false" id="area-do-texto" cols="40" rows="7"></textarea>
+            </div>
+            <div class="conteudo-principal-alert">
+                <img src="./assets/images/icon-alert.png" alt="Ícone de alerta">
+                <p>Apenas letras minúsculas e sem acentos.</p>
+            </div>
+            <div class="conteudo-principal-buttons">
+                <button onclick="criptografar()" class="botao-criptografar" id="btn-criptografar" type="submit">Criptografar</button>
+                <button onclick="descriptografar()" class="botao-descriptografar" id="btn-descriptografar" type="submit">Descriptografar</button>
+            </div>
+        </section>
+        <section class="conteudo-principal-messages">
+            <div class="conteudo-principal-box">
+                <img src="./assets/images/imagen-search.svg" alt="Caixa de digitar texto">
+                <div class="conteudo-principal-informations">
+                    <h2>Nenhuma mensagem encontrada.</h2>
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+        </section>
+        <section class="conteudo-principal-copyarea">
+            <div class="conteudo-principal-copies">
+                <textarea readonly="true" class="destino-do-texto" spellcheck="false" id="area-de-copia" cols="25" rows="9"></textarea>
+                <button class="botao-copiar" id="btn-copiar">Copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p>Challenge by <a href="https://www.alura.com.br/" target="_blank">Alura Formação T6 One.</a></p><br />
+        <p>Coded by <a href="https://github.com/diegofranciscodasilva" target="_blank">Diego Francisco da Silva.</a></p>
+    </footer>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
